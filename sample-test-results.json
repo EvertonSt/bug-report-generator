@@ -1,0 +1,20 @@
+{
+  "failures": [
+    {
+      "title": "should log in with valid credentials",
+      "fullTitle": "Login Flow > should log in with valid credentials",
+      "state": "failed",
+      "err": {
+        "message": "Timed out waiting for element #dashboard-header to appear"
+      }
+    },
+    {
+      "title": "should show error on invalid password",
+      "fullTitle": "Login Flow > should show error on invalid password",
+      "state": "failed",
+      "err": {
+        "message": "AssertionError: expected error banner to be visible but it was not"
+      }
+    }
+  ]
+}

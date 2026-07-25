@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log
+bug-log.json
+.env
+generated-tests.test.js

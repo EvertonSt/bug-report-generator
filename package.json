@@ -1,0 +1,23 @@
+{
+  "name": "bug-report-generator",
+  "version": "1.0.0",
+  "description": "CLI tool that helps QA testers write fast, consistent bug reports and pull failed test data straight into them.",
+  "main": "src/index.js",
+  "bin": {
+    "bugreport": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/run-tests.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.15",
+    "clipboardy": "^4.0.0",
+    "systeminformation": "^5.22.11",
+    "string-similarity": "^4.0.4"
+  },
+  "keywords": ["qa", "testing", "bug-report", "cli"],
+  "author": "Everton S. Andrade",
+  "license": "MIT"
+}
