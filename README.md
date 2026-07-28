@@ -1,5 +1,9 @@
 # Bug Report Generator — QA Companion CLI
 
+![CI](https://github.com/EvertonSt/bug-report-generator/actions/workflows/test.yml/badge.svg)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
+
 A command-line tool that helps QA testers write faster, more consistent bug reports — and pulls data straight from failed automated test runs so you're not retyping the same information twice.
 
 ## Why this exists

@@ -12,12 +12,17 @@
   },
   "type": "module",
   "dependencies": {
-    "inquirer": "^9.2.15",
     "clipboardy": "^4.0.0",
-    "systeminformation": "^5.22.11",
-    "string-similarity": "^4.0.4"
+    "inquirer": "^9.2.15",
+    "string-similarity": "^4.0.4",
+    "systeminformation": "^5.22.11"
   },
-  "keywords": ["qa", "testing", "bug-report", "cli"],
+  "keywords": [
+    "qa",
+    "testing",
+    "bug-report",
+    "cli"
+  ],
   "author": "Everton S. Andrade",
   "license": "MIT"
 }
